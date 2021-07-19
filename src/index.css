@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .App {
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+   
+  }
+
+  .shop-place-container {
+    box-shadow: 0 0 5px #ccc;
+    padding: 15px 10px;
+    
+   }
+
+   .products-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(208, 205, 205);
+   }
+
+   .products-grid img h4 p button {
+    width: 100%;
+    
+   }
