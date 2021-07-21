@@ -2,7 +2,7 @@ import React, { useState, useEffect }from "react";
 import { Link } from "react-router-dom";
 import  { AppProvider, useContextInfo } from "./Context"
 import SearchingBar from "./SearchingBar";
-import "./css/Navbar.css"
+import "../css/Navbar.css"
 
 export default () => <AppProvider>
      <Navbar></Navbar>
@@ -25,7 +25,7 @@ function Navbar() {
                 </ul>
                 <div>
                     <Link to="/cart">
-                        <button className="cart-btn">ir al carro {cart.length}</button>
+                        <button className="btns-app">ir al carro {cart.length}</button>
                     </Link>
                 </div>
                 <div>

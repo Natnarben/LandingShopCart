@@ -1,5 +1,5 @@
-import "./components/css/index.css";
-import "./components/css/fonts.css";
+import "./css/index.css";
+import "./css/fonts.css";
 import { BrowserRouter as Router} from "react-router-dom";
 import ShopPlace from "./components/ShopPlace";
 

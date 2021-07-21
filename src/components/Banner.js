@@ -9,12 +9,16 @@ export default function Banner() {
                 <p className="text2"><span>.</span> EN TU PRIMERA <span>.</span></p>
                 <p className="text3"><span>..</span>COMPRA<span>.</span></p>
             </div>
-            <div>
-                <p>RECIEN</p>
-                <p>LLEGADOS</p>
-                <p>LO ULTIMO DE NUESTRAS TIENDAS</p>
+            <div className="text-container">
+                <div className="sub-text">
+                    <p><span className="span-text">RECIEN </span> LLEGADOS</p>
+                </div>
+                <div className="sub-text2">
+                    <p >LO ULTIMO DE NUESTRAS TIENDAS</p>
+                    <br />
+                    <br />
+                </div>
             </div>
         </div>
-
     )
 }

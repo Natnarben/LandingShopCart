@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Roboto-Medium;
+    box-sizing: border-box; 
+  }
+  
+.App {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  
+  }
+
+.shop-place-container {
+  box-shadow: 0 0 5px #ccc;
+  padding: 15px 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(242, 248, 239);
+}
+
+.grid-products {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-right: 75px;
+  padding-left: 75px;
+  
+}
+
+.details  {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom:10px;
+  padding-top: 15px;
+  border-bottom: 2px solid black;
+}
+
+
+.details-pic {
+ border-style: none;
+ padding-bottom:7px;
+  padding-top: 5px;
+}
+
+
+.xs  {
+  background-color:black;
+  color: white;
+  height:30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top:  6px;
+}
+
+
+.banner-container {
+  position:relative;
+}
+
+.banner-pic {
+  width: 100%;
+}
+
+
+.text1 {
+  position:absolute;
+  background-color:white;
+  top: 50px;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.text2 {
+  position:absolute;
+  background-color:white;
+  top: 125px;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.text3 {
+  position:absolute;
+  top: 200px;
+  background-color:white;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+span {
+  color: white;
+}
+
+.profile-pic  {
+  border-radius:50%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-text {
+text-align: center;
+font-size: 60px;
+letter-spacing: 5px;
+
+}
+
+.sub-text2 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 12px;
+  
+  }
+.span-text {
+  color:rgb(214, 95, 115);
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: 100;
+  }
+
+  .btns-app{
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #050505;
+    background-color: #ffadfc;
+    border-radius: 10px;
+    border: 2px solid #ff45b2;
+    height: 35px;
+    
+  }
+  .btns-app:hover{
+    color: #000000;
+    background-color: #ffffff;
+  }
