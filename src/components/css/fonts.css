@@ -14,5 +14,5 @@ se debe adicionar boton para ELIMINAR PRODUCTO vista 2 sumProducts
 
 @font-face {
     font-family:Roboto-Medium;
-    src: url(fonts/Roboto-Medium.ttf);
+    src: url(/src/fonts/Roboto-Medium.ttf);
 }

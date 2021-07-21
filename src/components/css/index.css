@@ -40,21 +40,20 @@
   position:absolute;
   background-color:white;
   top: 50px;
-  font-size: x-large;
+  font-size: 50px;
 }
 
 .text2 {
   position:absolute;
   background-color:white;
-  top: 95px;
-  font-size: x-large;
-
+  top: 125px;
+  font-size: 50px;
 }
 .text3 {
   position:absolute;
-  top: 137px;
+  top: 200px;
   background-color:white;
-  font-size: x-large;
+  font-size: 50px;
 
 }
 span {

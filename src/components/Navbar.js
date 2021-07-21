@@ -1,8 +1,8 @@
 import React, { useState, useEffect }from "react";
 import { Link } from "react-router-dom";
-import "./css/Navbar.css"
 import  { AppProvider, useContextInfo } from "./Context"
 import SearchingBar from "./SearchingBar";
+import "./css/Navbar.css"
 
 export default () => <AppProvider>
      <Navbar></Navbar>
