@@ -2,4 +2,62 @@ nav {
     min-height: 70px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: rgb(248, 109, 213);
+    
 }
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li  {
+   padding-right: 15px;
+   
+}
+
+ a:visited {
+   color: white;
+   
+ }
+ a:active {
+   color: rgb(248, 109, 213);
+ }
+ a{
+   text-decoration: none;
+   
+ }
+
+
+.searching-bar {
+    padding-top: 13px;
+    border-radius: 9px;
+    text-align: center;
+    border: none;
+    outline: none;
+ }
+
+ .container-searchingBar  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #ebeef3;
+  }
+  
+  .svg-icon circle {
+    stroke: #e8f0fa;
+    stroke-width: 1;
+  }

@@ -11,3 +11,8 @@ se debe adicionar boton de AGREGAR PRODUCTO AL CARRO
 se debe adicionar boton de IR AL CARRO DE COMPRAS
 se debe adicionar boton para ELIMINAR PRODUCTO vista 2 sumProducts
 */
+
+@font-face {
+    font-family:Roboto-Medium;
+    src: url(fonts/Roboto-Medium.ttf);
+}
