@@ -1,17 +1,16 @@
-import React, { useState, useEffect }from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import  { AppProvider, useContextInfo } from "./Context"
 import SearchingBar from "./SearchingBar";
 import "../css/Navbar.css"
 
 export default () => <AppProvider>
-     <Navbar></Navbar>
+        <Navbar></Navbar>
 </AppProvider>
-
 
 function Navbar() { 
 
-    const {cart} = useContextInfo();
+    const { cart } = useContextInfo();
 
     return (
         <div className="nav-container">
@@ -25,7 +24,7 @@ function Navbar() {
                 </ul>
                 <div>
                     <Link to="/cart">
-                        <button className="btns-app">ir al carro {cart.length}</button>
+                        <button className="btns-app">ir al carro  ({cart.length}) </button>
                     </Link>
                 </div>
                 <div>

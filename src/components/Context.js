@@ -8,12 +8,11 @@ export function AppProvider(props) {
     const [ products ] = useState(AllData);
     const [ cart, setCart ] = useState([]);
 
-
     const value = useMemo(() => {
         return ({
             cart,
             setCart,
-            products
+            products 
         })
     }, [cart, setCart, products])
 
