@@ -42,11 +42,11 @@ nav ul li  {
     vertical-align: middle;
  }
 
- .container-searchingBar  {
+ /* .container-searchingBar  {
     display: flex;
     justify-content: space-around;
     align-items: center;
- }
+ } */
 
  .svg-icon {
     width: 1em;
