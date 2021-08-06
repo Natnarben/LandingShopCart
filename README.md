@@ -1,11 +1,6 @@
 ## 1. Resumen del Proyecto
 
-No existe día que no tomemos notas, siempre necesitamos apuntar alguna
-dirección, número telefónico, notas de alguna reunión o guardar nuestras URLs
-favoritas para poder consultarlas más tarde. Muchas veces para esta actividad
-utilizamos libretas o agendas que terminan siendo olvidadas, o anotamos de
-manera dispersa de tal manera que perdemos de vista la prioridad y el propósito
-de la nota lo cual da como resultado una nota perdida.
+project review
 
 Se cumple con todas funcionalidades básicas mencionadas en el inicio del proyecto:
 
